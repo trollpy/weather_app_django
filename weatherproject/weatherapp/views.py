@@ -15,7 +15,7 @@ def index(request):
     forecast_data = None  # Add this line
    
     api_key = getattr(settings, 'OPENWEATHERMAP_API_KEY', None)
-    if not api_key or api_key == '4a89b4a5cfc56c07556fbb40c753b46d':
+    if not api_key or api_key == '':
         error_message = "API key is not set or is invalid. Please check your settings."
         return render(request, 'weatherapp/index.html', {
             'form' : form,
