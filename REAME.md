@@ -115,17 +115,6 @@ The app features a gradient background that transitions through:
 - Hover effects that elevate cards and enhance shadows
 - Smooth transitions between states
 
-## 📸 Screenshots
-
-![Weather App Home](https://via.placeholder.com/600x300?text=Weather+App+Home+Screen)
-*Home screen with animated sky and search functionality*
-
-![Weather Information](https://via.placeholder.com/600x300?text=Weather+Information+Display)
-*Weather information display with animated background*
-
-![Forecast View](https://via.placeholder.com/600x300?text=5-Day+Forecast+Display)
-*5-day forecast with interactive cards*
-
 ## 🚀 Enabling the Forecast Feature
 
 To enable the 5-day forecast feature that's included in the UI, you'll need to modify your Django views to fetch forecast data. Add this to your `views.py`:
